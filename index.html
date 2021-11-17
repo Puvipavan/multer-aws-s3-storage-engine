@@ -1,0 +1,32 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+    <title>Multer AWS S3 Storage Engine - Sample</title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Multer AWS S3 Storage Engine - Sample">
+    <meta name="author" content="Puvipavan">
+</head>
+
+<body>
+    <div style="margin: auto; text-align: center;">
+        <h1>Multer AWS S3 Storage Engine - Sample</h1>
+
+        <h3>Sample Form:</h3>
+
+        <form action="/api/v1/images/" method="POST" enctype="multipart/form-data">
+            <label for="image">Choose Image</label>
+            <input id="image" type="file" name="image" /> <br>
+
+            <label for="description">Enter image description</label>
+            <input id="description" type="text" name="description" /> <br><br>
+
+            <input id="submit" type="submit" value="Upload File" /> <br>
+        </form>
+    </div>
+</body>
+
+</html>
